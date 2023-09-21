@@ -8,5 +8,5 @@ export default defineConfig({
     build: {
       outDir: './docs'
     },
-  base: '/TON_Web/'
+  base: 'https://houston1304.github.io/TON_Web/'
 });
