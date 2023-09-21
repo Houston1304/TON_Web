@@ -29,7 +29,6 @@ export const Payment = () => {
     if (valueSwitch == "ton") {
       setvaluePlaceholder("Сумма в тонах");
       setFinalPrice(tonPrice * valuePrice * valueInput);
-
       setSumValue("рублей");
     }
 
@@ -104,7 +103,7 @@ export const Payment = () => {
       </div>
 
       <label className="priceBox">
-        Сумма: <span id="ton-price">{finalPrice}</span> {sumValue}
+        Сумма: <span id="ton-price">{finalPrice || 0}</span> {sumValue}
       </label>
       <button>Оплатить</button>
     </div>
