@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Monteserrat";
+  src: url("/fonts/Montserrat/Montserrat-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  font-family: "Monteserrat";
+  margin: 0;
+}
+
+button {
+  border-radius: 12px;
+  background: #079bf9;
+  border: none;
+  color: white;
+  width: 135px;
+  height: 38px;
+  font-size: 1rem;
+}
+
+.paymentMain {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.paymentMain input {
+  margin-top: 10px;
+}
+
+.paymentMain button {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.paymentHead {
+  margin: 0 auto;
+}
+
+.valueBox {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.valueBox input {
+  margin-right: 5px;
+}
+
+.priceBox {
+  margin-top: 10px;
+}
+
+.inputBox div {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
