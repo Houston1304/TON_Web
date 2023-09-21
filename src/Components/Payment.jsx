@@ -11,7 +11,7 @@ export const Payment = () => {
   const [valueInput, setValueInput] = useState("");
   const [tonPrice, setTonPrice] = useState("");
   const [valuePrice, setValuePrice] = useState([]);
-  const [finalPrice, setFinalPrice] = useState();
+  const [finalPrice, setFinalPrice] = useState(0);
   const [sumValue, setSumValue] = useState();
 
   const handleChange = (e) => {
