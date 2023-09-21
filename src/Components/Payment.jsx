@@ -2,6 +2,8 @@ import { TextField } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
+
+
 export const Payment = () => {
   const [valueSwitch, setValueSwitch] = useState("ruble");
   const [valuePlaceholder, setvaluePlaceholder] = useState("");
@@ -90,14 +92,15 @@ export const Payment = () => {
           onChange={(e) => {
             setAdresV(e.target.value);
           }}
-        ></TextField>
+
+        />
         <TextField
           id="sum"
           label={valuePlaceholder}
           variant="outlined"
           value={valueInput}
           onChange={handleChange}
-        ></TextField>
+        />
       </div>
 
       <label className="priceBox">

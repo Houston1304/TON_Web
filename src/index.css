@@ -9,6 +9,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+color: white;
+  background-color: #222B3D;
 }
 
 * {
@@ -65,4 +67,11 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
+}
+
+.inputBox div div{
+  background-color: rgba(255, 255, 255, 0.027);}
+
+.inputBox div label{
+  color: rgba(255, 255, 255, 0.753);
 }

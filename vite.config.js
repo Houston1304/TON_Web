@@ -8,5 +8,5 @@ export default defineConfig({
     build: {
       outDir: './docs'
     },
-  base: '/ton_exchanger/'
+  base: '/TON_Web/'
 });
